@@ -1,0 +1,83 @@
+.hero {
+  padding: 84px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 1440px) {
+    background-position: right bottom;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+
+  &__title {
+    max-width: 729px;
+    font-size: 32px;
+    line-height: 112%;
+    color: #fff;
+  }
+
+  &__text {
+    max-width: 639px;
+
+    p {
+      margin: 0;
+      font-family: inherit;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 133%;
+      color: #fff;
+    }
+  }
+
+  &__btn {
+    display: inline-block;
+    border-radius: 8px;
+    padding: 16px 40px;
+    background-color: var(--light-color);
+    color: #672870;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .hero {
+    padding: 32px 0 222px 0;
+    background-image: url('../img/hero_banner-mob.jpg') !important;
+  }
+
+  .hero__title {
+    font-size: 24px;
+    line-height: 108%;
+    margin-bottom: 14px;
+  }
+
+  .hero__text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 20px;
+
+    p {
+      font-size: 14px;
+      line-height: 136%;
+    }
+  }
+
+  .hero__content {
+    gap: 0;
+  }
+}
