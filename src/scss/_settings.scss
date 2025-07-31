@@ -31,13 +31,12 @@ a {
 }
 
 .site-container {
-  margin-top: var(--header-height);
   overflow: hidden; // если используете на сайте position: sticky - уберите эту настройку
+  margin-top: var(--header-height);
 }
 
 .is-hidden {
-  display: none !important;
-  /* stylelint-disable-line declaration-no-important */
+  display: none !important; /* stylelint-disable-line declaration-no-important */
 }
 
 .btn-reset {

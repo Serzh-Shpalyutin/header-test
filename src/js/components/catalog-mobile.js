@@ -835,12 +835,12 @@ export function initCatalogMobile() {
     const menuHTML = item.subcategories.map(subItem => `
       <li class="categories-mob__item">
         <a href="${subItem.link || '#'}"
-         class="categories-mob__btn btn-reset categories-mob__link"
-         data-level="final"
-         data-category="${currentCategory.id}"
-         data-subcategory="${currentSubcategory.id}"
-         data-item="${item.id}"
-         data-subitem="${subItem.id}">
+          class="categories-mob__btn btn-reset categories-mob__link"
+          data-level="final"
+          data-category="${currentCategory.id}"
+          data-subcategory="${currentSubcategory.id}"
+          data-item="${item.id}"
+          data-subitem="${subItem.id}">
         <div class="categories-mob__btn-lside">
           <span class="categories-mob__btn-icon">
             ${currentCategory.icon}
@@ -922,12 +922,12 @@ export function initCatalogMobile() {
     const menuHTML = item.subcategories.map(subItem => `
       <li class="categories-mob__item">
         <a href="${subItem.link || '#'}"
-         class="categories-mob__btn btn-reset categories-mob__link"
-         data-level="final"
-         data-category="${currentCategory.id}"
-         data-subcategory="${currentSubcategory.id}"
-         data-item="${item.id}"
-         data-subitem="${subItem.id}">
+          class="categories-mob__btn btn-reset categories-mob__link"
+          data-level="final"
+          data-category="${currentCategory.id}"
+          data-subcategory="${currentSubcategory.id}"
+          data-item="${item.id}"
+          data-subitem="${subItem.id}">
         <div class="categories-mob__btn-lside">
           <span class="categories-mob__btn-icon">
             ${currentCategory.icon}
